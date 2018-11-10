@@ -1,9 +1,11 @@
-**Star Wars **
+**Star Wars Api**
 ![](starwars.gif)
+![](starwars1.gif)
 
-Applications stars wars
-Technologies utilisées:
+Application Web Star Wars
 
-               * React
-               * Sass
-               * Node js
+
+Technologies utilisées:React / NodeJS / Sass / Axios
+
+
+Développeur:Job stephane, Bertocchini julien, Gicquel Julie.
