@@ -1,0 +1,87 @@
+
+.footer {
+    display: grid;
+    grid-template-columns : repeat(2, 1fr);
+    background-color: #201D21;
+    border-top: 2px solid #f8e51e; 
+    margin-top: 0px;
+    max-width: 100%;
+    height: auto;
+    padding-right: 20px;
+    
+}
+
+.Socials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Instagram, .Facebook, .Twitter {
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+.IconContact {
+    height: 50px;
+    transform: scale(0.7);
+    cursor: pointer;
+    margin-left: 0.5em;
+}
+
+@media screen and (min-width: 2100px) {
+    .footer {
+        padding-right: 30px;
+        margin-top: 60px;
+
+    }
+
+    .Instagram, .Facebook, .Twitter {
+        margin-right: 20px;
+        transform:scale(1.5);
+    }
+}
+
+@media screen and (max-width: 1999px) {
+    .footer {
+        padding-right: 30px;
+        margin-top: 60px;
+    }
+
+    .Instagram, .Facebook, .Twitter {
+        margin-right: 20px;
+        transform:scale(1.2);
+    }
+}
+@media screen and (max-width: 990px) {
+    .footer {
+        padding-right: 20px;
+        margin-top: 60px;
+    }
+
+    .Instagram, .Facebook, .Twitter {
+        margin-right: 15px;
+        transform:scale(1.1);
+    }
+
+    .IconContact {
+        transform:scale(0.6);
+    }
+}
+@media screen and (max-width: 766px) {
+    .footer {
+        padding-right: 20px;
+        margin-top: 60px;
+    }
+
+    .Instagram, .Facebook, .Twitter {
+        margin-right: 10px;
+        transform:scale(1);
+    }
+
+    .IconContact {
+        transform:scale(0.5);
+    }
+}
+
